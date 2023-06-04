@@ -15,60 +15,8 @@ body {
     color: rgb(175, 175, 175);
 }
 
-.sidenav {
-    width: 70px;
-    background-color: #131313;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    z-index: 999;
-    transition: width 0.3s;
-  }
-  
-  .sidenav:hover {
-    width: 200px; /* Adjust as needed */
-  }
-  
-  .sidenav-bar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    transition: opacity 0.3s;
-  }
-  
-  .sidenav:hover .sidenav-bar {
-    opacity: 1;
-  }
-  
-  .sidenav-icon {
-    cursor: pointer;
-    padding: 10px;
-    transition: transform 0.3s;
-  }
-  
-  .sidenav:hover .sidenav-icon {
-    transform: translateX(130px); /* Adjust as needed */
-  }
-  
-  .sidenav-icon i {
-    font-size: 24px;
-    color: #333;
-    transition: color 0.3s;
-  }
-  
-  .sidenav-icon:hover i {
-    color: #000;
-  }
-  
-  .sidenav-content {
-    margin-left: 70px; /* Width of the sidenav */
-    padding: 20px;
-    transition: opacity 0.3s;
-  }
-  
-  .sidenav:hover .sidenav-content {
-    opacity: 1;
-  }
-  
+.kbnavrect {
+  border-radius: 25px;
+  background-color: #191919;
+  padding: 10px;
+}
