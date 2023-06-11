@@ -20,15 +20,3 @@ body {
   background-color: #191919;
   padding: 10px;
 }
-
-html, body {
-  height: 100%;
-}
-
-.center1element {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
